@@ -1,0 +1,47 @@
+/* CSS for the login and register pages */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container form {
+    margin-bottom: 20px;
+  }
+  
+  .container form input[type="text"],
+  .container form input[type="password"],
+  .container form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .container form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .container form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .container p {
+    text-align: center;
+  }
+  
